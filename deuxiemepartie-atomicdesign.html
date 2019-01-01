@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Atomic Design - Un projet éditorial numérique</title>
+        </head>
+        <body>
+            <h1>Un livre autoédité &amp; ouvert</h1>
+            <p><em>2015 - 2016</em></p><br>
+            <cite>« This book is a work in progress ». </cite>
+            <p>La culture du web de l’auteur façonne sa manière d’envisager l’édition et le conduit à proposer un objet éditorial nouveau, qui correspond à son identité numérique : ouvert, libre et collaboratif. </p>
+            
+                <h2>Les étapes du projet</h2>
+                    <p>Dans son article <a href="http://bradfrost.com/blog/post/self-publishing-a-book-for-fun-and-profit/">« Self publishing a book for fun and profit »</a>, B. Frost relate son processus éditorial.
+                        <ul>
+                            <li>L’auteur exige que le livre soit publié en ligne et reste totalement accessible. L’éditeur contacté refusera cette exigence. B. Frost se tourne vers l’autoédition. </li>
+                            <li>La rédaction du livre se fera chapitre par chapitre et l’auteur communiquera à chaque nouvelle parution. Les chapitres seront publiés sans attendre que le livre ne soit achevé. Et chaque nouvelle avancée fera l’objet d’une communication via la newsletter.</li>
+                            <li>Le 8 janvier 2015 : annonce de lancement du projet. </li>
+                            <li>En janvier 2016, B. Frost commence une collaboration avec un éditeur indépendant : Owen Gregory. Il propose ses modifications sur GitHub. </li>
+                            <li>En septembre 2016, il commence à travailler avec Rachel Andrew pour la version ebook, et avec Rachel Arnold Sager pour la version print.</li>
+                            <li>En novembre 2016, le bon pour impression est envoyé à l’imprimeur pour 1 000 livres. </li>
+                        </ul>
+                    </p>
+            
+                <h2>Les choix éditoriaux</h2>
+                    <h3>L'autoédition</h3>
+                        <p>Le premier choix éditorial qu’il effectue est celui de l’autoédition. S’agissant de son premier livre, il était risqué de prendre cette décision. Cependant, il bénéficiait déjà d’une certaine audience en ligne, due à la tenue d’un blog pendant une dizaine d’année, mais aussi à ses divers projets et conférences. L’autoédition reste donc tout de même un choix risqué pour d’autres auteurs qui ne bénéficieraient pas de cette visibilité de départ. </p>
+                        <p>Ce choix est également motivé par une certaine méfiance vis-à-vis des éditeurs. Le système éditorial se révèle être empreint d’un certain nombre de contraintes pour les auteurs, que ce soit en termes d’outils à utiliser, de liberté dans le contenu et la forme du texte, ou encore sur le plan de la répartition non équitable des revenus. </p>
+            
+                    <h3>Le processus d'écriture</h3>
+                        <p>Le processus d’écriture est ouvert dès le départ. B. Frost fait le choix d’un environnement nativement numérique et utilise les technologies web pour rédiger son livre. En voici les étapes :
+                            <ul>
+                                <li>Le contenu textuel est d’abord écrit localement en Markdown ;</li>
+                                <li>Les changements sont ensuite envoyés dans un répertoire en ligne via la plate-forme Github ;</li>
+                                <li>Ces changements sont automatiquement affichés sur le site web du livre ;</li>
+                                <li>Les gens sont alertés lorsque des changements majeurs sont produits ;</li>
+                                <li>Le texte en cours d’écriture est ainsi lisible par tous dans sa totalité ;</li>
+                                <li>La possibilité est donnée de pouvoir précommander l’ebook pour 10$.</li>
+                            </ul>
+                        </p>
+                        
+                    <h3>Les outils du <em>workflow</em>éditorial</h3>
+                        <p>Dans une volonté de garder un processus ouvert et libre, le choix des outils à utiliser est déterminant. Voici les technologies utilisées dans le <em>workflow</em> :
+                            <ul>
+                                <li><strong>L’éditeur de texte utilisé est IA Writer</strong>, une application simple qui formate le texte en Markdown ; </li>
+                                <li><strong>Le site est généré par Jekyll, </strong>un générateur de site statique basé dans un environnement Ruby ;</li>
+                                <li><strong>Les dossiers du livre sont déposés dans un répertoire GitHub. </strong>GitHub permet d’effectuer des changements et se trouve donc très utile pour le travail éditorial. Couplé à Jekyll, il permet d’héberger les pages de son propre site. Ces deux outils sont donc appropriés pour un workflow éditorial pour le web ;</li>
+                                <li><strong>DeployBot est une technologie utilisée pour automatiser les alertes </strong>lorsque des changements importants sont enregistrés dans le dépôt Git ;</li>
+                                <li><strong>MailChimp est l’outil de newsletter </strong>utilisée pour envoyer la progression en cours.</li>
+                            </ul>
+                        </p>
+                    
+                    <h3>Versions ebook &amp; print</h3>
+                        <p>Pour l’ebook, B. Frost travaille avec la web designer Rachel Andrew qui va gérer les format ePub, Mobi pour Kindle et Pdf. Pour la version print, c’est Rachel Arnold Sager qui s’occupe des choix des illustrations et du bookdesign. Le choix de la typographie n’a pas été d’un grand enjeu puisqu’il dit a propos de cela : « I chose the typeface for the book I think by Googling "Good Google Font pairings" or something » <a href="#note">[1]</a> . Enfin, les choix de l’imprimeur, ainsi que du papier et des matériaux pour la couverture et les pages intérieures se sont fait sur les conseils de la designer R. A. Sager. </p>
+                
+                    <h3>L'ebook : design &amp; ergonomie</h3>
+                        <p>Les choix de design pour l’ebook restent simples et en tout point similaire à la version web. Brad Frost reprendre son identité graphique déjà développée pour ses projets web. Les liens hypertextes sont également les mêmes. Quant au contenu, l’ebook n’en offre pas davantage par rapport à la version web. Cela laisse penser que l’achat de l’ebook sert surtout à rémunérer l’auteur pour son travail plutôt qu’à accéder à un nouveau contenu. L’auteur respecte ici son souhait d’offrir à tout le monde son travail de manière gratuite. Mais on peut regretter que ne soient pas intégrés dans l’ebook plus de contenus multimédias, ou de tutoriels. </p>
+            
+                <h2>Aspects commerciaux</h2>
+                    <h3>Vente</h3>
+                        <p>Le système commercial du livre, et la communication autour ont de gros atouts et se montrent très efficaces. Dès le début, il met en place un système de précommande. Précommander le livre signifiait payer pour un contenu non définitif et incomplet. En compensation, B. Frost proposait d’autres avantages et contenus en dehors du livre, comme une réduction sur le livre imprimé, ou des tutoriaux. 
+                            Ce système est plutôt performant, puisqu’une semaine après l’annonce de lancement du projet, il comptabilisait déjà une commande de 4 000 ebooks. On remarque ici une différence majeure avec un processus éditorial traditionnel, pendant lequel l’auteur rédige son livre, sans avoir aucune idée des retours qu’il pourra en avoir. Au contraire, B. Frost vend son livre, avant même de l’avoir écrit.</p>
+            
+                    <h3>Distribution</h3>
+                        <p>Pour la distribution, il utilise deux grandes applications : Shopify et Sendowl. Shopify est un service en ligne qui offre à ses utilisateurs la possibilité de créer sa propre boutique d’e-commerce. Shopify propose également des solutions d’expédition dont B. Frost s’est également servi pour l’envoi de ses livres. En ce qui concerne Sendowl, il s’agit d’une plateforme permettant la vente de contenu numérique. Cela est donc particulièrement bien adapté pour la vente de l’ebook. </p>
+            
+            
+            <h2>Notes</h2>
+                <div id="note">Cette citation est extraite d’un échange de mail avec Brad Frost pour les besoins de ce travail. </div>
+            <nav>
+        <a href="troisiemepartie-atomicdesign.html">Troisième partie</a>
+        <a href="Accueil-AtomicDesign.html">Retour à l'accueil</a>
+    </nav>
+        </body>
